@@ -1,11 +1,11 @@
-* {
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 header {
-    background-color:  #0074d9;
+    background-color: #0074d9;
     height: 10vh;
     padding: 10px 0;
 }
@@ -42,34 +42,7 @@ footer {
     justify-content: end;
 }
 
-#lista-estados li, #lista-municipios li, #lista-favoritos li{
-    list-style-type: none;
-}
-
-.list-link {
-    color: #333;
-    transition: 0.2s;
-}
-
-.list-link:hover {
-    opacity: 0.8;
-}
-
-.list-item {
+#lista-estados {
     display: flex;
-    justify-content: space-between;
-    padding: 5px 0;
-}
-
-.list-item button {
-    background-color: #ff4136;
-    color: #fff;
-    border: none;
-    padding: 5px 10px;
-    cursor: pointer;
-    transition: 0.2s;
-}
-
-.list-item button:hover {
-    opacity: 0.8;
-}
+    flex-direction: column;
+    align-ite
